@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body
+{
+    background-color: gold;
+    width:auto;
+    margin: auto;
+}
+
+
+nav {
+
+    width:auto;
+    margin:0;
+    background-size: cover;
+
+}
+nav ul {
+    background-color: blue;
+    background-size: cover;
+    color: white;
+    width:100%;
+
+}
+nav ul li {
+    text-align: center;
+    color: white;
+    margin: 10px;
+    width:15px;
+    padding: 15px;
+    display:inline-flex;
+    text-decoration: none;
+    margin-left:100px;
+
+}
+
+ul li a {
+    color: white;
+    justify-content: space-between;
+    margin-left: 150px;
+}
+.text {
+    margin-left: 400px;
+}
+.parag1 {
+    margin-left: 400px;
+}
+.btn{
+    text-align: center;
+    margin: 0 0 0 400px;
+}
+
+nav ul li :hover{
+    color: greenyellow;
+}
+img {
+    width:100%;
+    height:400;
+    
+
+}
+ion-icon{
+    font-size:50px;
+    align-items: center;
+}
+
+social-icon{
+    color: #aaaaaa;
+    transition: color 0.2s;
+    text-decoration: none;
+ }
+
+ footer .social-icon :hover{
+    color: black;
+ }
+ footer .social-icon {
+    background-color: black;
+    background-size: cover;
+    padding: 30px ;
+    padding-right: 60px;
+    width:100% ;
+    margin: 0 0 0 150px;
+    
+
+ }
+
+ .well{
+    display: flex;
+    margin: 100px 0px 0px 0px;
+    height: 250px;
+ }
+.photo {
+    height: auto;
+    width: auto;
+    margin: 0 0 0 400;
+}
+.uon {
+    width: 250;
+    height: 200;
+    margin-left: 405px;
+}
+.plp {
+    width: 250;
+    height: 200;
+    margin-left: 12px;
+}
+.form-group {
+    display: block;
+}
